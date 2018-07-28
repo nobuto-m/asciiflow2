@@ -1,9 +1,25 @@
 {
-  "name": "asciiflow2",
+  "name": "asciiflow2-offline",
+  "version": "0.0.1",
+  "description": "Infinite ASCII diagrams, resize, freeform draw, and export straight to text. This snap package works offline without accesing asciiflow.com",
   "main": "index.js",
   "icon": "images/favicon.png",
   "scripts": {
-      "start": "electron ."
+    "start": "electron .",
+    "dist": "build"
+  },
+  "repository": "https://github.com/nobuto-m/asciiflow2",
+  "build": {
+    "appId": "com.github.nobuto-m.asciiflow2",
+    "linux": {
+      "target": [
+        "snap"
+      ]
+    }
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "1.7.15",
+    "electron-builder": "^19.45.4"
   }
 }
-
