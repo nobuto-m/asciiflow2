@@ -1,5 +1,5 @@
 {
-  "name": "asciiflow2-offline",
+  "name": "asciiflow2-offline-nobuto",
   "version": "0.0.1",
   "description": "Infinite ASCII diagrams, resize, freeform draw, and export straight to text. This snap package works offline without accesing asciiflow.com",
   "main": "index.js",
